@@ -1,6 +1,6 @@
 const repeatString = function(word, num) {
-    let string = 0;
-    for (i = 0; i <= num; i++) {
+    let string = '';
+    for (i = 0; i <= num - 1; i++) {
         string += word
     }
     return string;
